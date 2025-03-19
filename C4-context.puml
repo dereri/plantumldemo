@@ -2,7 +2,8 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 System(RSA_TRA, "Travel Coverage Search API", "Policy validation service")
 System(NCP,"Nordic Care Platform", "System to support intake, steering and booking of health and travel related claims")
-System(Tellus, "Submission API", "API to submit all types of claims to")
+System(SubAPI, "Submission API", "API to submit all types of claims to")
+System(Claims, "Claims.intake", "System to register claims in Waypoint")
 Rel(NCP, RSA_TRA, "Reads travel coverage data from")
-Rel(NCP, Tellus, "Submit travel claim to")
+Rel(NCP, SubAPI, "Submit travel claim to")
 @enduml
