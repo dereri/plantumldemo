@@ -1,6 +1,7 @@
 @startuml C4-context
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 Person(customer, "Customer/Patient", "A person in need of health care covered by the insurance.")
+Person(claimhandler, "Claim handler", "A person handling the claim")
 System(RSA_TRA, "Travel Coverage Search API", "Policy validation service")
 System(NCP,"Nordic Care Platform", "System to support intake, steering and booking of health and travel related claims")
 System(SubAPI, "Submission API", "API to submit all types of claims to")
