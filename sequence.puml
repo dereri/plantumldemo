@@ -1,0 +1,5 @@
+@startuml PlantUML demo
+skinparam Style strictuml
+Erik -> Helge : Check out PlantUML
+Helge -> Erik : Wow! Now I love documentation too!
+@enduml
