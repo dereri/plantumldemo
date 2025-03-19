@@ -6,4 +6,5 @@ System(SubAPI, "Submission API", "API to submit all types of claims to")
 System(Claims, "Claims.intake", "System to register claims in Waypoint")
 Rel(NCP, RSA_TRA, "Reads travel coverage data from")
 Rel(NCP, SubAPI, "Submit travel claim to")
+Rel(SubAPI, Claims, "Submit WP claim to")
 @enduml
