@@ -3,5 +3,4 @@ skinparam Style strictuml
 Erik -> Helge : Check out PlantUML
 Helge -> Erik : Wow! Now I love documentation too!
 Helge -> Confluence : Adding my documentation here
-Helge -> Confluence : Adding my documentation here
 @enduml
